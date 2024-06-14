@@ -39,8 +39,8 @@ header#cabecalho h1{
 }
 
  header#cabecalho img#banner{
-    position: absolute;
-    top: 212px;
+    position:relative;
+    top: 250 px;
     right: 195px;
  }
 
