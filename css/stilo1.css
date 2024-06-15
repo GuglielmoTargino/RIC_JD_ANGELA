@@ -23,7 +23,7 @@ div#interface h2{
 /*div da img_cristo*/
 div#imagem-cristo{    
     width: 60px;
-    height: 100px;   
+    height: 100px; 
 }
 
 /*
@@ -45,7 +45,7 @@ div#imagem-cristo{
 
 header#cabecalho img#banner{
     position:relative;
-    right: -400px;
+    right: -80px;
     top: 10px;
     
  }
@@ -59,7 +59,7 @@ header#cabecalho h1{
     margin-bottom: 0px;
 }
 
- /*FORMATAÇÃO DO MENU */
+ /*FORMATAÇÃO DO bloco MENU */
 nav#menu{
     display: block;
 }
