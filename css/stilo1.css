@@ -3,13 +3,14 @@ body{
     background-color: rgb(218, 185, 142);
 
 }
-
+/* div master principal*/
 div#interface{
     width: 900px;
     background-color: white;
     margin: 10px auto 10px auto;
     box-shadow:  0 0 2em rgb(124, 120, 120);
     padding: 10px 10px 10px 10px;
+    border-radius: 8px;
 }
 
 div#interface h1{
@@ -25,37 +26,21 @@ div#imagem-cristo{
     width: 60px;
     height: 100px; 
 }
-
-/*
-div#imagem-cristo{
-    
-    width: 100px;
-    background-color: white;
-    margin: 10px 10px 10px auto;
-    box-shadow:  0 0 2em rgb(124, 120, 120);
-    padding: 130px 408px 10px 100px;
+img#icone{
+    border-radius: 8px;
 }
-    header#cabecalho img#banner{
-    position:relative;
-    top: 80%;
-    right: 100%;
- }
-*/
-
 
 header#cabecalho img#banner{
     position:relative;
     right: -80px;
-    top: 10px;
-    
+    top: 10px;    
  }
 
  /* ============disposição da foto oculos no canto sup/dir============= */
 header#cabecalho img#icone{
     position: relative;
     top: 0px;
-  left: 400px;
-    
+  left: 400px;    
 }
 
 header#cabecalho h1{
