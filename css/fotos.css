@@ -1,0 +1,150 @@
+body{
+
+    background-color: #41c76e;
+
+}
+/* div master principal*/
+div#interface{
+    width: 900px;
+    background-color: white;
+    margin: 10px auto 10px auto;
+    box-shadow:  0 0 2em rgb(124, 120, 120);
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+
+}
+
+div#interface h1{
+    text-align: center;
+    margin-top: 80px;
+}
+
+div#interface h2{
+    text-align: center;
+}
+/*div da img_cristo*/
+div#imagem-cristo{    
+    width: 60px;
+    height: 100px; 
+}
+img#icone{
+    border-radius: 8px;
+}
+
+header#cabecalho img#banner{
+    position:relative;
+    right: -80px;
+    top: 10px;    
+ }
+
+ /* ============disposição da foto oculos no canto sup/dir============= */
+header#cabecalho img#icone{
+    position: absolute;
+    top: 0px;
+  left: 400px;    
+}
+
+header#cabecalho h1{
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 30pt;
+    color: rgb(156, 151, 151);
+    text-shadow: 1px 1px 1px black;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+ /*FORMATAÇÃO DO bloco MENU */
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;   
+    position:relative;
+    top: -290px;
+    left: 400px;     
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: rgb(221, 212, 230);
+    padding: 10px;
+    margin: 3px;
+    transition: 1s;
+    border-radius: 8px;
+   
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu li:hover{
+    background-color: rgb(201, 29, 29);    
+}
+
+nav#menu a{
+    color: rgb(1, 6, 10);
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: white;
+    text-decoration: overline;    
+}
+
+
+ /* formatação de foto com legenda>> foto membros grupo*/
+ figure.foto-legenda {
+    position: relative;
+    border: 8px solid hsl(0, 22%, 96%);
+    /*box-shadow: 3px blue;*/
+    /*box-shadow: inset 0 0 1em rgb(48, 179, 8), 0 0 1em red;*/
+    box-shadow:  0 0 1em rgb(172, 115, 115);  
+    width: 600px;
+    height: 450px;
+    left: 100px;
+}
+
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;  
+      
+}
+
+figure.foto-legenda figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption{
+    opacity: 1;
+}
+
+footer#rodape{
+    clear: both;
+    border-top: 1px solid red;
+}
+
+footer#rodape{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;    
+}
+
+
+
