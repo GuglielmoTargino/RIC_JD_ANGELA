@@ -19,7 +19,7 @@ div#interface h1{
 }
 
 
-div#fachada{
+div#taja_fachada{
     
     width: 900px;
     height: 70px;
@@ -32,8 +32,10 @@ div#fachada{
 
 
 
-img#icone{
-    border-radius: 8px;
+header#fachada img#banner_ric_jd_angela{
+    position: relative;
+    top: 0px;
+  left: 400px;    
 }
 
  /*FORMATAÇÃO DO bloco MENU */
