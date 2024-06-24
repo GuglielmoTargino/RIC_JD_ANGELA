@@ -38,20 +38,20 @@ nav li{float: left;}
 
 /*smart phone*/
 @media only screen and (max-width: 480px){
-    nav{height: 50px;}
+    nav{height: 50px; padding-left: 30%; padding-top: 15px;}
     nav li{width: 100%;}
 }
 
 /* tablet*/
-@media only screen and (min-width: 481px){
-    nav{height: 80px;}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    nav{height: 80px; padding-left: 30%; padding-top: 15px;}
     nav li{width: 100%;}
 
 }
 
 /*desktop*/
 @media only screen and (min-width: 769px){
-    nav{height:50px; padding-left: 30%; padding-top: 15px;}
+    nav{height: 100px; padding-left: 30%; padding-top: 15px;}
     nav li{width: 22%; text-align: center;}
     
 }
