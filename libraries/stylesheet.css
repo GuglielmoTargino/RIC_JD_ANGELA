@@ -36,6 +36,11 @@ nav{
 
 nav li{float: left;}
 
+.banderola{
+    position: absolute;
+    left: 10px;
+}
+
 /*smart phone*/
 @media only screen and (max-width: 480px){
     nav{height: 50px; padding-left: 30%; padding-top: 15px;}
