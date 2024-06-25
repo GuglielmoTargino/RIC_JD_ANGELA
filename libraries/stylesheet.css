@@ -1,139 +1,111 @@
-
+@charset "UTF-8";
 
 body{
+    width: auto;
     margin: 0px;
     padding: 0px;
     background-color: rgb(217, 240, 8);   
 }
-
 header{
     position: absolute;
-        width: 100%;
-        top: 20px;
+    width: 100%;
+    top: 20px;
 }
-
 main{
     width: 100%;
 }
-
 footer{
     width: 100%;
 }
-
 ul{
     margin: 0px;
     padding: 0px;
     list-style: none;
    
 }
-
 nav{
     float: left;
-    width: 100%;
+  
     background-color: rgb(17, 22, 22);
    margin-top: 10px;
    color: yellow;
    text-align: center;
    display:block;    
 }
-
-nav li{float: left;}
-
-.banderola{
-    position: absolute;
-    left: 50px;
-    top: -5px
+nav li{
+    float: left;
 }
 
 /*smart phone*/
 @media only screen and (max-width: 480px){
-    nav{height: 50px; padding-left: 30%; padding-top: 15px;}
+    nav{width: 70%; height: 50px; padding-left: 30%; padding-top: 5px;}
     nav li{width: 100%;}
 }
-
 /* tablet*/
 @media only screen and (min-width: 481px) and (max-width: 768px){
-    nav{height: 80px; padding-left: 30%; padding-top: 15px;}
+    nav{width: 70%; height: 80px; padding-left: 30%; padding-top: 15px;}
     nav li{width: 100%;}
 
 }
-
 /*desktop*/
 @media only screen and (min-width: 769px){
-    nav{height: 100px; padding-left: 30%; padding-top: 15px;}
-    nav li{width: 22%; text-align: center;}
+    nav{width: 70%; height: 100px; padding-left: 30%; padding-top: 15px;}
+    nav li{width: 22%; text-align: center;}  
     
 }
 
 figure#moldura{    
-        position: relative;
-        border: 8px solid hsl(0, 22%, 96%);
-        /*box-shadow: 3px blue;*/
-        /*box-shadow: inset 0 0 1em rgb(48, 179, 8), 0 0 1em red;*/
-        box-shadow:  0 0 1em rgb(46, 8, 8);  
-        width: 610px;
-        height: 575px;
-        left: 300px;    
-        margin-top: 200px;
-        margin-bottom: 50px;
-       
-        
-    }
-    figure#moldura img{
-        position: relative;
-        right: 0px;
-        top: 0px;
-        width: 608px;
+    position: relative;
+    border: 8px solid hsl(0, 22%, 96%);       
+    box-shadow:  0 0 1em rgb(46, 8, 8);  
+    width: 610px;
+    height: 575px;
+    left: 300px;    
+    margin-top: 200px;
+    margin-bottom: 50px;
+   
     
-    }
+}
+
+figure#moldura img{
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 608px;
+
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;    
+}
+h1{
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+h2{
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+aside#cx-selecao{
+    position: relative;
+    border: solid 1px;
+    border-color:red;
+    width: 150px;
+    height: 345px;
+    top: -600px;
+    left: 100px;
     
-
-    div#text-comentario{
-        position: relative;
-        width: 600px;
-        height: 100px;
-        border: solid 1px;
-        border-color: rgb(22, 22, 26);
-        right: -351px;
-        top: -165px;
-        background-color: rgb(236, 241, 241);
-        border-radius: 8px;
-    }
-
-    p{
-        text-align: justify;
-        text-indent: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;    
-    }
-    h1{
-        position: relative;
-        top: 150px;
-        text-align: center;
-    }
-    h2{
-        position: relative;
-        top: 150px;
-        text-align: center;
-    }
-
-    aside#cx-selecao{
-        position: relative;
-        border: solid 1px;
-        border-color:red;
-        width: 150px;
-        height: 345px;
-        top: -740px;
-        left: 100px;
-        margin-bottom: 0px;
-        
-    }
-
+    margin-bottom: 0px;
+    
+}
 footer{
     clear: both;
     border-top: 1px solid red;
     text-align: center;
     margin-top: -400px;
+    padding-top: 20px;
 }
-
-
