@@ -3,7 +3,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(224, 163, 83);   
+    background-color: rgb(217, 240, 8);   
 }
 
 header{
@@ -117,14 +117,23 @@ figure#moldura{
         text-align: center;
     }
 
+    aside#cx-selecao{
+        position: relative;
+        border: solid 1px;
+        border-color:red;
+        width: 150px;
+        height: 345px;
+        top: -740px;
+        left: 100px;
+        margin-bottom: 0px;
+        
+    }
+
 footer{
     clear: both;
     border-top: 1px solid red;
-}
-
-footer{
     text-align: center;
-    margin-top: 150px;;
+    margin-top: -400px;
 }
 
 
