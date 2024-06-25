@@ -3,11 +3,13 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: aquamarine;   
+    background-color: rgb(224, 163, 83);   
 }
 
 header{
+    position: absolute;
         width: 100%;
+        top: 20px;
 }
 
 main{
@@ -29,7 +31,7 @@ nav{
     float: left;
     width: 100%;
     background-color: rgb(17, 22, 22);
-   margin-top: 50px;
+   margin-top: 10px;
    color: yellow;
    text-align: center;
    display:block;    
@@ -40,7 +42,7 @@ nav li{float: left;}
 .banderola{
     position: absolute;
     left: 50px;
-    top: 35px
+    top: -5px
 }
 
 /*smart phone*/
@@ -63,19 +65,56 @@ nav li{float: left;}
     
 }
 
-figure#corpo-main{    
-        position: absolute;
+figure#moldura{    
+        position: relative;
         border: 8px solid hsl(0, 22%, 96%);
         /*box-shadow: 3px blue;*/
         /*box-shadow: inset 0 0 1em rgb(48, 179, 8), 0 0 1em red;*/
-        box-shadow:  0 0 1em rgb(172, 115, 115);  
-        width: 460px;
-        height: 345px;
+        box-shadow:  0 0 1em rgb(46, 8, 8);  
+        width: 610px;
+        height: 575px;
         left: 300px;    
-        margin-top: 300px;
-}
+        margin-top: 200px;
+        margin-bottom: 50px;
+       
+        
+    }
+    figure#moldura img{
+        position: relative;
+        right: 0px;
+        top: 0px;
+        width: 608px;
+    
+    }
+    
 
-
+    div#text-comentario{
+        position: relative;
+        width: 600px;
+        height: 100px;
+        border: solid 1px;
+        border-color: rgb(22, 22, 26);
+        right: -351px;
+        top: -165px;
+        background-color: rgb(236, 241, 241);
+        border-radius: 8px;
+    }
+    p{
+        text-align: justify;
+        text-indent: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;    
+    }
+    h1{
+        position: relative;
+        top: 150px;
+        text-align: center;
+    }
+    h2{
+        position: relative;
+        top: 150px;
+        text-align: center;
+    }
 
 footer{
     clear: both;
@@ -84,6 +123,7 @@ footer{
 
 footer{
     text-align: center;
+    margin-top: 150px;;
 }
 
 
