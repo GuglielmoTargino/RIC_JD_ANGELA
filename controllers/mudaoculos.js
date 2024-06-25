@@ -1,4 +1,4 @@
-function mudaOculos (oculos){
-    document.getElementById("icone").src=oculos;
+function mudaOculos (X){
+    document.getElementById("icone").src=X;
 
 }
