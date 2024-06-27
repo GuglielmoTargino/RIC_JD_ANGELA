@@ -68,7 +68,7 @@ div#botao-menu img#bot-menu{
         float: right;
         display:none;
         top: 60px;
-        width: 40%;
+        width: 30%;
         height: 35px;
         color: rgb(15, 15, 15);
         background-color: rgb(193, 197, 197);
@@ -81,7 +81,7 @@ div#botao-menu img#bot-menu{
     right: 50px;}
 
     aside#cx-selecao{           
-        top: 280px;
+        top: 300px;
         left: 30px; 
         width: 75px; 
         height: 250px; 
