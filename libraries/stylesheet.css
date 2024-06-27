@@ -44,17 +44,19 @@ nav{
     margin-top: 10px;
     color: rgb(121, 111, 214);
     text-align: right;
-    
-   
-      
 }
+
 nav li{   
     border: 1px solid red;  
     border-radius: 8px; 
     background-color: rgb(221, 220, 216);
-    font-size: 20px;
-        
+    font-size: 20px;        
 }
+
+nav li:hover{
+    background-color: yellow;
+}
+
 
 a{
     color: rgb(63, 41, 7);
@@ -83,6 +85,10 @@ div#botao-menu img#bot-menu{
         padding-right: 10px;
         }
 
+        div#principal{
+            width: 440px;        
+        }
+
 div#botao-menu img#bot-menu{       
     top: -53px;
     right: 50px;}
@@ -92,7 +98,7 @@ div#botao-menu img#bot-menu{
 
 
 img#logo-pagina{   
-        top: -595px;
+        top: -645px;
         left: 20px; 
         max-width: 170px;    
 }
@@ -135,7 +141,7 @@ p{
 }
 
 
-/* tablet*/
+/* tablet =============================================================*/
 @media only screen and (min-width: 481px) and (max-width: 768px){
     nav{width: 100%; height: 60px; padding-top: 15px;}
     nav li{
@@ -149,6 +155,9 @@ p{
         background-color: rgb(201, 201, 194);
         margin: 2px;
         padding-right: 10px;
+        }
+        div#principal{
+            width: 720px;        
         }
 
 
@@ -170,7 +179,7 @@ p{
         }
 
     img#logo-pagina{   
-            top: -730px;
+            top: -740px;
             left: 20px; 
             max-width: 180px;    
     }
@@ -218,6 +227,7 @@ p{
 @media only screen and (min-width: 769px){
     nav{width: 100%; height: 80px; }
     nav li{ float: right; width: 80px;  padding:10px; margin: 15px 13px; } 
+   
 
     div#botao-menu img#bot-menu{
         display: none;
