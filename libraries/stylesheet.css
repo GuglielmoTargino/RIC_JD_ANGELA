@@ -44,7 +44,7 @@ nav{
     background-color: rgb(17, 22, 22);
     margin-top: 10px;
     color: rgb(121, 111, 214);
-    text-align: right;
+    text-align: center
 }
 
 nav li{   
@@ -70,7 +70,7 @@ div#botao-menu img#bot-menu{
 }
 
 /*smart phone ===================================================*/
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 450px){
     nav{width: 100%; height: 55px; padding-top: 4px;}
     nav li{
         position: relative;
@@ -97,7 +97,7 @@ div#botao-menu img#bot-menu{
     img#logo-pagina{   
         top: -745px;
         left: 0px; 
-        max-width: 170px;    
+        max-width: 150px;    
     }
 
     img#bot-menu{
@@ -147,7 +147,7 @@ div#botao-menu img#bot-menu{
 
 
 /* tablet =============================================================*/
-@media only screen and (min-width: 481px) and (max-width: 768px){
+@media only screen and (min-width: 451px) and (max-width: 768px){
     nav{width: 100%; height: 60px; padding-top: 15px;}
     nav li{
         position: relative;
@@ -198,7 +198,7 @@ div#botao-menu img#bot-menu{
 
     h1{
         margin-top: 50px;
-        font-size: 22px;
+        font-size: 21px;
     }
 
     h2{
@@ -222,7 +222,7 @@ div#botao-menu img#bot-menu{
 /*desktop    */
 @media only screen and (min-width: 769px){
     nav{width: 100%; height: 80px; }
-    nav li{ float: right; width: 80px;  padding:10px; margin: 15px 13px; }    
+    nav li{ float: right; width: 75px;  padding:10px; margin: 15px 13px; }    
 
     div#botao-menu img#bot-menu{
         display: none;
@@ -231,8 +231,8 @@ div#botao-menu img#bot-menu{
        }
 
     img#logo-pagina{   
-            top: -1010px;
-            left: 30px;     
+            top: -1020px;
+            left: 20px;     
     }
 
     figure#moldura{    
@@ -270,7 +270,7 @@ div#botao-menu img#bot-menu{
     }
     
     h2{
-        font-size: 20px;
+        font-size: 23px;
     }
 
     img#botao-voltar{
