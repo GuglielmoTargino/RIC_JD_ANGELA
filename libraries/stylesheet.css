@@ -22,7 +22,8 @@ footer{
     clear: both;
     border-top: 1px solid red;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
+    margin-top: 30px;
     width: 100%;
 }
 ul{
@@ -231,7 +232,7 @@ p{
 
     aside#cx-selecao{      
             left: 100px; 
-            top: 350px; 
+            top: 310px; 
             height: 230px; 
             position:absolute;
             border: 1px solid red;
@@ -242,7 +243,7 @@ p{
         }  
 
     img#logo-pagina{   
-            top: -300px;
+            top: -150px;
             left: 50px;     
     }
 
@@ -250,8 +251,8 @@ p{
         position: relative;
         border: 8px solid hsl(0, 22%, 96%);       
         box-shadow:  0 0 1em rgb(46, 8, 8);  
-        width: 450px;
-        height: 338px;
+        width: 660px;
+        height: 480px;
         left: 250px;    
         margin-top: 200px;
         margin-bottom: 50px;
