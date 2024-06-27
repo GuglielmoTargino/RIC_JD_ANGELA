@@ -4,7 +4,7 @@ body{
     width: auto;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(223, 241, 62);   
+    background-color: rgb(225, 240, 97);   
 }
 header{
     position: absolute;
@@ -17,7 +17,13 @@ main{
 }
 footer{
     width: 100%;
-    background-color: rgb(131, 128, 128);
+    background-color: rgb(202, 195, 195);
+    position: absolute;
+    clear: both;
+    border-top: 1px solid red;
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
 }
 ul{
     margin: 0px;
@@ -37,11 +43,12 @@ nav{
 nav li{   
     border: 1px solid red;  
     border-radius: 8px; 
+    background-color: rgb(230, 228, 165);
         
 }
 
 a{
-    color: rgb(245, 245, 237);
+    color: rgb(63, 41, 7);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -59,7 +66,7 @@ div#botao-menu img#bot-menu{
         float: right;
         display:none;
         top: 60px;
-        width: 100%;
+        width: 40%;
         height: 35px;
         color: rgb(15, 15, 15);
         background-color: rgb(193, 197, 197);
@@ -106,8 +113,7 @@ figure#moldura{
 figure#moldura img{
     position: relative;
     right: 0px;
-    top: 0px;
-   
+    top: 0px; 
 
 }
 
@@ -138,7 +144,7 @@ p{
         float: right;
         display:none;
         top: 60px;
-        width: 100%;
+        width: 40%;
         height: 35px;
         color: rgb(15, 15, 15);
         background-color: rgb(193, 197, 197);
@@ -207,10 +213,6 @@ p{
         left: 10px;
     }
 }
-
-
-
-
 
 /*desktop    */
 @media only screen and (min-width: 769px){
@@ -285,9 +287,9 @@ img#logo-pagina{
 p{
     text-align:left;
     text-indent: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-     
+    font-family: Arial, Helvetica, sans-serif;     
 }
+
 h1{
     position: relative;
     top: 150px;
@@ -297,14 +299,4 @@ h2{
     position: relative;
     top: 150px;
     text-align: center;
-}
-
-
-footer{
-    position: absolute;
-    clear: both;
-    border-top: 1px solid red;
-    text-align: center;
-    padding-top: 20px;
-    width: 100%;
 }
