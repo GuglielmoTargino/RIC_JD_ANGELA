@@ -17,6 +17,7 @@ main{
 }
 footer{
     width: 100%;
+    background-color: rgb(131, 128, 128);
 }
 ul{
     margin: 0px;
@@ -28,14 +29,20 @@ nav{
     float: left;  
     background-color: rgb(17, 22, 22);
     margin-top: 10px;
-    color: yellow;
-    text-align: center;
-    display:block;    
+    color: rgb(121, 111, 214);
+    text-align: right;
+   
+      
 }
-nav li{
-    float: left;
+nav li{   
     border: 1px solid red;  
     border-radius: 8px; 
+        
+}
+
+a{
+    color: rgb(245, 245, 237);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 div#botao-menu img#bot-menu{
@@ -44,15 +51,20 @@ div#botao-menu img#bot-menu{
    
 }
 
-/*smart phone  aside#cx-selecao{           
-        top: 380px;
-        left: 60px; 
-        height: 175px;        
-    }*/
+/*smart phone */
 @media only screen and (max-width: 480px){
     nav{width: 100%; height: 55px; padding-top: 4px;}
-    nav li{width: 100%;
-    display:none}
+    nav li{
+        position: relative;
+        float: right;
+        display:none;
+        top: 60px;
+        width: 100%;
+        height: 35px;
+        color: rgb(15, 15, 15);
+        background-color: rgb(193, 197, 197);
+        margin: 2px;
+        }
 
 div#botao-menu img#bot-menu{       
     top: -53px;
@@ -74,8 +86,9 @@ div#botao-menu img#bot-menu{
 
 
 img#logo-pagina{   
-        top: -545px;
-        left: 20px;     
+        top: -595px;
+        left: 20px; 
+        max-width: 170px;    
 }
 
 figure#moldura{    
@@ -112,7 +125,7 @@ p{
 
   img#botao-voltar{
     position: relative;
-    left: 0px;
+    left: -2px;
 }
 }
 
@@ -120,9 +133,20 @@ p{
 /* tablet*/
 @media only screen and (min-width: 481px) and (max-width: 768px){
     nav{width: 100%; height: 60px; padding-top: 15px;}
-    nav li{width: 100%;
-        display: none;
-    }
+    nav li{
+        position: relative;
+        float: right;
+        display:none;
+        top: 60px;
+        width: 100%;
+        height: 35px;
+        color: rgb(15, 15, 15);
+        background-color: rgb(193, 197, 197);
+        margin: 2px;
+        }
+
+
+
     div#botao-menu img#bot-menu{       
         top: -60px;
         right: 50px;}
@@ -141,7 +165,8 @@ p{
 
     img#logo-pagina{   
             top: -738px;
-            left: 20px;     
+            left: 20px; 
+            max-width: 180px;    
     }
 
     figure#moldura{    
@@ -190,7 +215,7 @@ p{
 /*desktop    */
 @media only screen and (min-width: 769px){
     nav{width: 100%; height: 80px; }
-    nav li{width: 80px;  padding:15px; margin: 15px ; } 
+    nav li{ float: left; width: 80px;  padding:15px; margin: 15px ; } 
 
     div#botao-menu img#bot-menu{
         display: none;
@@ -246,7 +271,10 @@ p{
     
 }
 
-/*==========================CONFIGURAÇÃO GERAL ======================================*/    
+/*==========================CONFIGURAÇÃO GERAL ======================================*/  
+img#bot-menu{
+    border-radius: 5px;
+}  
     
 img#logo-pagina{
     position: relative;
