@@ -4,7 +4,7 @@ body{
     width: auto;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(223, 243, 47);   
+    background-color: rgb(223, 241, 62);   
 }
 header{
     position: absolute;
@@ -13,6 +13,7 @@ header{
 }
 main{
     width: 100%;
+    
 }
 footer{
     width: 100%;
@@ -37,50 +38,185 @@ nav li{
     border-radius: 8px; 
 }
 
+div#botao-menu img#bot-menu{
+    float: right;
+    position: relative;
+   
+}
+
 /*smart phone*/
 @media only screen and (max-width: 480px){
-    nav{width: 100%; height: 50px; padding-top: 5px;}
-    nav li{width: 100%;}
-}
-/* tablet*/
-@media only screen and (min-width: 481px) and (max-width: 768px){
-    nav{width: 100%; height: 80px; padding-top: 15px;}
-    nav li{width: 100%;}
+    nav{width: 100%; height: 55px; padding-top: 4px;}
+    nav li{width: 100%;
+    display:none}
 
-}
-/*desktop*/
-@media only screen and (min-width: 769px){
-    nav{width: 100%; height: 100px; }
-    nav li{width: 150px;  padding: 10px;margin: 25px; }  
-    
+div#botao-menu img#bot-menu{       
+    top: -53px;
+    right: 50px;}
+
+aside#cx-selecao{           
+        top: 380px;
+        left: 60px; 
+        height: 175px;        
+    }
+
+img#logo-pagina{   
+        top: -758px;
+        left: 20px;     
 }
 
 figure#moldura{    
     position: relative;
     border: 8px solid hsl(0, 22%, 96%);       
     box-shadow:  0 0 1em rgb(46, 8, 8);  
-    width: 610px;
-    height: 575px;
-    left: 300px;    
+    width: 190px;
+    height: 178px;
+    left: 200px;    
     margin-top: 200px;
     margin-bottom: 50px;
-    background-color: rgb(144, 144, 146);
-   
-    
+    background-color: rgb(144, 144, 146);   
 }
 
 figure#moldura img{
     position: relative;
     right: 0px;
     top: 0px;
-    width: 608px;
+   
 
 }
+
+h1{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+h2{
+    font-size: 20px;
+}
+p{      
+    font-size: 12px;         
+  }    
+}
+/* tablet*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    nav{width: 100%; height: 60px; padding-top: 15px;}
+    nav li{width: 100%;
+        display: none;
+    }
+    div#botao-menu img#bot-menu{       
+        top: -60px;
+        right: 50px;}
+
+        aside#cx-selecao{           
+            top: 380px;
+            left: 60px; 
+            height: 175px;        
+        }
+
+    img#logo-pagina{   
+            top: -758px;
+            left: 20px;     
+    }
+
+    figure#moldura{    
+        position: relative;
+        border: 8px solid hsl(0, 22%, 96%);       
+        box-shadow:  0 0 1em rgb(46, 8, 8);  
+        width: 380px;
+        height: 357px;
+        left: 200px;    
+        margin-top: 200px;
+        margin-bottom: 50px;
+        background-color: rgb(144, 144, 146);   
+    }
+    
+    figure#moldura img{
+        position: relative;
+        right: 0px;
+        top: 0px;
+      
+    
+    }
+
+    h1{
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    p{      
+        font-size: 12px;         
+      }
+
+}
+
+
+
+
+
+/*desktop    */
+@media only screen and (min-width: 769px){
+    nav{width: 100%; height: 80px; }
+    nav li{width: 80px;  padding:15px; margin: 15px ; } 
+
+    div#botao-menu img#bot-menu{
+        display: none;
+        top: -80px;
+        right: 30px;
+       }
+
+    aside#cx-selecao{      
+            left: 100px; 
+            top: 350px; 
+            height: 230px;       
+        }   
+
+    img#logo-pagina{   
+            top: -250px;
+            left: 50px;     
+    }
+
+    figure#moldura{    
+        position: relative;
+        border: 8px solid hsl(0, 22%, 96%);       
+        box-shadow:  0 0 1em rgb(46, 8, 8);  
+        width: 610px;
+        height: 575px;
+        left: 250px;    
+        margin-top: 200px;
+        margin-bottom: 50px;
+        background-color: rgb(144, 144, 146);        
+    }
+    
+    figure#moldura img{
+        position: relative;
+        right: 0px;
+        top: 0px;
+        width: 608px;    
+    }
+
+    p{      
+      font-size: 14px;         
+    }
+   
+    
+}
+
+/*==========================CONFIGURAÇÃO GERAL ======================================*/    
+    
+img#logo-pagina{
+    position: relative;
+    float: left;        
+}
+
+
 p{
     text-align:left;
     text-indent: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
      
 }
 h1{
@@ -93,17 +229,16 @@ h2{
     top: 150px;
     text-align: center;
 }
+
 aside#cx-selecao{
-    position: relative;
-    border: solid 1px;
-    border-color:red;
+    position:absolute;
+    border: 1px solid red;
     width: 120px;
-    height: 345px;
-    top: -600px;
-    left: 100px;
+  
+ 
+   
     padding: 5px; 
-    border-radius: 8px;     
-    margin-bottom: 0px;  
+    border-radius: 8px;      
     background-color: rgb(171, 171, 173);
 }
 
@@ -111,10 +246,13 @@ aside#cx-selecao{
     position: relative;
     left: 20px;
 }
+
+
 footer{
+    position: absolute;
     clear: both;
     border-top: 1px solid red;
     text-align: center;
-    margin-top: -400px;
     padding-top: 20px;
+    width: 100%;
 }
