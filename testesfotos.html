@@ -17,10 +17,11 @@
     <!-- meta para configurar as função responsiva-->
     <meta name="viewport" content=" width=device--width, initial-scale=1">
     <link rel="stylesheet" href="libraries/stylesheet.css">  
-    <script src="libraries/jquery-3.7.1.min.js"></script>     
+    <script src="libraries/jquery-3.7.1.min.js"></script> 
+    <script src="libraries/javascript.js"></script>
+      
 
 </head>
-<script src="js/mudaoculos.js"></script>
 <style>
     iframe {
         width:100%;
@@ -35,49 +36,47 @@
         <header id="fachada">
             <nav>
                 <ul>
-                    <li>Home </li>
-                    <li>LINKS</li>
-                    <li>CONTATO </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li>Eventos</li>
+                    <li>Videos</li>
+                    <li>Contato</li>
                 </ul>
-            </nav>  
-          
-           
+            </nav> 
+            <div id="botao-menu">
+                <img id="bot-menu" src="images/botao-menu.jpg">
+            </div>           
         </header>
 
-        <main>
+            <h1>Galeria de fotos da Igreja em Casa Jd. Ângela! </h1>
+            <h2>Nossos melhores momentos são registrados aqui.</h2>
 
-            <h1>Bem Vindo à Galeria de fotos da Igreja em Casa Jd. Ângela! </h1>
-            <h2>
-                Nossos melhores momentos são registrados aqui.
-            </h2>
+        <div id="principal">
+
+            
             
             <figure id="moldura">
-                <iframe src="../RIC_JD_ANGELA/views/listafotos.html" name="janela" id="frame-fotos">
-                        
+                <iframe src="../RIC_JD_ANGELA/views/listafotos.html" name="janela" id="frame-fotos">                        
                 </iframe>
             </figure>
-    
-            <
-        </main>
+            
+            <img id="logo-pagina" src="images/fotos.png">
+
+            <a href="fotos.html"><img id="botao-voltar" src="images/botao_voltar.png"></a>
+
+
+        </div>
+
+       
 
         
 
-        <aside id="cx-selecao">
-            <p>Clique em um 
-                item da lista
-                para ver a foto.
-            </p>
-            
-
-           
-
-        </aside>
+      
 
                  
         
         <footer id="rodape">
             Igreja em Casa JD. Ângela-zona sul SP, é parte da Igreja de Cristo Internacional de São Paulo-Brasil.<br/>
-            <a href="http://icoc.org.br" target=" blank">Site oficial ICOC-SP</a></p>
+            <a href="http://icoc.org.br" target="_blank">Site oficial ICOC-SP</a></p>
         </footer>
   
 </body>
