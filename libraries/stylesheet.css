@@ -16,7 +16,7 @@ div#principal{
     width: 730px;
     background-color: white;
     box-shadow:  0 0 2em rgb(124, 120, 120);
-    padding: 10px 10px 10px 10px;
+    padding-top: 10px;
     border-radius: 8px;
 }
 
@@ -75,7 +75,7 @@ div#botao-menu img#bot-menu{
         position: relative;
         float: right;
         display:none;
-        top: 65px;
+        top: 55px;
         width: 11%;
         height: 35px;
         color: rgb(15, 15, 15);
@@ -95,8 +95,8 @@ div#botao-menu img#bot-menu{
     }
 
     img#logo-pagina{   
-        top: -745px;
-        left: 0px; 
+        top: -670px;
+        left: -10px; 
         max-width: 150px;    
     }
 
@@ -109,9 +109,9 @@ div#botao-menu img#bot-menu{
     position: relative;
     border: 8px solid hsl(0, 22%, 96%);       
     box-shadow:  0 0 1em rgb(46, 8, 8);  
-    width:330px;
-    height: 301px;
-    right: 38px;   
+    width:310px;
+    height: 282px;
+    right: 28px;   
     margin-top: 200px;
     margin-bottom: 50px;
     background-color: rgb(144, 144, 146);   
