@@ -86,7 +86,8 @@ div#botao-menu img#bot-menu{
         }
 
     div#principal{
-            width: 400px;        
+            width: 350px;  
+            margin: 4px auto 4px auto;      
         }
 
     div#botao-menu img#bot-menu{       
@@ -109,7 +110,7 @@ div#botao-menu img#bot-menu{
     position: relative;
     border: 8px solid hsl(0, 22%, 96%);       
     box-shadow:  0 0 1em rgb(46, 8, 8);  
-    width:350px;
+    width:250px;
     height: 345px;
     right: 38px;   
     margin-top: 200px;
