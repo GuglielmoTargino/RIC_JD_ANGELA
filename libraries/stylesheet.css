@@ -15,7 +15,6 @@ header{
 div#principal{
     width: 730px;
     background-color: white;
-    margin: 10px auto 10px auto;
     box-shadow:  0 0 2em rgb(124, 120, 120);
     padding: 10px 10px 10px 10px;
     border-radius: 8px;
@@ -165,7 +164,8 @@ div#botao-menu img#bot-menu{
     }
 
     div#principal{
-            width: 720px;        
+            width: 720px;  
+            margin: 10px auto 10px auto;      
     }
 
     div#botao-menu img#bot-menu{       
@@ -230,6 +230,11 @@ div#botao-menu img#bot-menu{
         top: -80px;
         right: 30px;
        }
+
+    div#principal{
+        width: 720px;  
+        margin: 10px auto 10px auto;      
+    }
 
     img#logo-pagina{   
             top: -1020px;
