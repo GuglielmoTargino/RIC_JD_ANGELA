@@ -85,7 +85,7 @@ div#botao-menu img#bot-menu{
         }
 
     div#principal{
-            width: 350px;  
+            width: 380px;  
             margin: 4px auto 4px auto;      
         }
 
@@ -95,7 +95,7 @@ div#botao-menu img#bot-menu{
     }
 
     img#logo-pagina{   
-        top: -670px;
+        top: -698px;
         left: -10px; 
         max-width: 150px;    
     }
@@ -109,9 +109,9 @@ div#botao-menu img#bot-menu{
     position: relative;
     border: 8px solid hsl(0, 22%, 96%);       
     box-shadow:  0 0 1em rgb(46, 8, 8);  
-    width:310px;
-    height: 282px;
-    right: 28px;   
+    width:338px;
+    height: 308px;
+    right: 26px;   
     margin-top: 200px;
     margin-bottom: 50px;
     background-color: rgb(144, 144, 146);   
@@ -212,7 +212,7 @@ div#botao-menu img#bot-menu{
 
     img#botao-voltar{
         position: relative;
-        left: 180px;
+        left: 150px;
     }
 
     a{
@@ -246,8 +246,8 @@ div#botao-menu img#bot-menu{
         border: 8px solid hsl(0, 22%, 96%);       
         box-shadow:  0 0 1em rgb(46, 8, 8);  
         width: 640px;
-        height: 580px;
-        left:0%;
+        height: 582px;
+        left:-10px;
         margin-top: 200px;
         margin-bottom: 50px;
         background-color: rgb(144, 144, 146);  
