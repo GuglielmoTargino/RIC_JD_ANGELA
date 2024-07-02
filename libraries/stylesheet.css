@@ -169,9 +169,13 @@ div#botao-menu img#bot-menu{
     }
 
     div#botao-menu img#bot-menu{       
-        top: -60px;
+        top: -65px;
         right: 50px;
     }
+
+    img#bot-menu{
+        max-width: 70px;
+        }
 
     img#logo-pagina{   
             top: -1000px;
