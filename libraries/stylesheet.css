@@ -21,15 +21,15 @@ div#principal{
 }
 
 footer{
-    width: 100%;
+    width: 97%;
     background-color: rgb(202, 195, 195);
     position: absolute;
     clear: both;
     border-top: 1px solid red;
     text-align: center;
-    padding-top: 40px;
+    padding:19px;
     margin-top: 30px;
-    width: 100%;
+    margin-bottom: 30px;
 }
 
 ul{
