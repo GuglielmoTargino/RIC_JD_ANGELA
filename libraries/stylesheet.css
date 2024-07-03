@@ -21,13 +21,14 @@ div#principal{
 }
 
 footer{
-    width: 97%;
+    width: 100%;
     background-color: rgb(202, 195, 195);
     position: absolute;
     clear: both;
     border-top: 1px solid red;
     text-align: center;
-    padding:18px;
+   padding-top: 10px;
+   padding-bottom: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
