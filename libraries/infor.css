@@ -18,6 +18,9 @@ div#principal{
     padding-top: 10px;
     border-radius: 8px;
 }
+div#filha{
+    border-radius: 8px;
+}
 
 footer{
     width: 100%;
@@ -88,6 +91,13 @@ div#botao-menu img#bot-menu{
             width: 380px;  
             margin: 200px auto 4px auto;      
         }
+        div#filha{
+            width: 350px;
+            height: 60px;
+            background-color: rgb(236, 203, 111);
+            margin: 20px auto 10px auto;  
+            padding-top: 10px;
+        }
       
 
     div#botao-menu img#bot-menu{       
@@ -96,7 +106,7 @@ div#botao-menu img#bot-menu{
     }
 
     img#logo-pagina{   
-        top: -290px;
+        top: -420px;
         left: -10px; 
         max-width: 150px;    
     }
@@ -106,32 +116,16 @@ div#botao-menu img#bot-menu{
     }
 
 
-    figure#moldura{    
-    position: relative;
-    border: 8px solid hsl(0, 22%, 96%);       
-    box-shadow:  0 0 1em rgb(46, 8, 8);  
-    width:338px;
-    height: 308px;
-    right: 26px;   
-    margin-top: 200px;
-    margin-bottom: 50px;
-    background-color: rgb(144, 144, 146);   
-    }
+  
 
-    figure#moldura img{
-    position: relative;
-    right: 0px;
-    top: 0px; 
-    }
 
     h1{
     margin-top: 50px;
     font-size: 16px;
+    margin: 0px;
+    text-align: center;
     }
 
-    h2{
-    font-size: 14px;
-    }
     p{      
     font-size: 12px;         
     }    
@@ -165,9 +159,17 @@ div#botao-menu img#bot-menu{
     }
 
     div#principal{
-            width: 720px;  
-            margin: 200px auto 10px auto; 
-                
+            width: 720px;
+            height: 450px;  
+            margin: 200px auto 10px auto;                 
+    }
+
+    div#filha{
+        width: 600px;
+        height: 90px;
+        background-color: rgb(236, 203, 111);
+        margin: 20px auto 10px auto;  
+        padding-top: 10px;
     }
  
     div#botao-menu img#bot-menu{       
@@ -180,45 +182,25 @@ div#botao-menu img#bot-menu{
         }
 
     img#logo-pagina{   
-            top: -300px;
+            top: -470px;
             left: 10px; 
             max-width: 180px;    
-    }
-
-    figure#moldura{    
-        position: relative;
-        border: 8px solid hsl(0, 22%, 96%);       
-        box-shadow:  0 0 1em rgb(46, 8, 8);  
-        width: 640px;
-        height: 580px;
-        left: 0px;    
-        margin-top: 200px;
-        margin-bottom: 50px;
-        background-color: rgb(144, 144, 146);   
-    }
-    
-    figure#moldura img{
-        position: relative;
-        right: 0px;
-        top: 0px;    
     }
 
     h1{
         margin-top: 50px;
         font-size: 21px;
+        margin: 0px;
+        text-align: center;
     }
-
-    h2{
-        font-size: 19px;
-    }
-
     p{      
-        font-size: 13px;         
-    }
+        font-size: 12px;         
+        } 
 
-    img#botao-voltar{
-        position: relative;
-        left: 150px;
+        img#botao-voltar{
+            position: relative;
+            left: 130px;
+            bottom: -120px; 
     }
 
     a{
@@ -239,58 +221,42 @@ div#botao-menu img#bot-menu{
 
     div#principal{
         width: 720px;  
+        height: 500px;
         margin: 200px auto 10px auto;      
+    }  
+    div#filha{
+        width: 600px;
+        height: 80px;
+        background-color: rgb(236, 203, 111);
+        margin: 20px auto 10px auto;
+        padding-top: 20px;
     }
-   
 
     img#logo-pagina{   
-            top: -350px;
+            top: -460px;
             left: 20px;     
     }
 
-    figure#moldura{    
-        position: relative;
-        border: 8px solid hsl(0, 22%, 96%);       
-        box-shadow:  0 0 1em rgb(46, 8, 8);  
-        width: 640px;
-        height: 582px;
-        left:-10px;
-        margin-top: 200px;
-        margin-bottom: 50px;
-        background-color: rgb(144, 144, 146); 
-              
-    }
-    
-    figure#moldura img{
-        position: relative;
-        right: 0px;
-        top: 0px;
-        width: 608px;    
-    }
-
-    p{      
-      font-size: 14px;         
-    }
-
     img#botao-voltar{
         position: relative;
-        left: 10px;
+        left: 40px;
+        bottom: -170px;       
     }
 
     h1{
-        margin-top: 50px;
+        position: relative;
+        margin-top: -10px;
         font-size: 25px;
-    }
-    
-    h2{
-        font-size: 23px;
+        text-align: center;
+        
     }
 
-    img#botao-voltar{
-        position: relative;
-        left: 100px;
-    }
-   
+    p{      
+        font-size: 12px;         
+        } 
+   a{
+     font-size: 20px;
+        }
     
 }
 
@@ -305,19 +271,8 @@ img#logo-pagina{
 }
 
 p{
-    text-align:left;
+    text-align: justify;
     text-indent: 30px;
-    font-family: Arial, Helvetica, sans-serif;     
-}
-
-h1{
-    position: relative;
-    top: 150px;
-    text-align: center;
-}
-
-h2{
-    position: relative;
-    top: 160px;
-    text-align: center;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;    
+} 
