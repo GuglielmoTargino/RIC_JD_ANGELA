@@ -4,7 +4,7 @@ body{
     width: auto;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(196, 81, 177);   
+    background-color: rgb(221, 112, 203);   
 }
 header{
     position: absolute;
@@ -179,7 +179,7 @@ div#botao-menu img#bot-menu{
         }
 
     img#logo-pagina{   
-            top: -1000px;
+            top: -980px;
             left: 10px; 
             max-width: 180px;    
     }
@@ -242,7 +242,7 @@ div#botao-menu img#bot-menu{
     }
 
     img#logo-pagina{   
-            top: -1028px;
+            top: -990px;
             left: 20px;     
     }
 
