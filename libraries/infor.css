@@ -143,7 +143,7 @@ div#botao-menu img#bot-menu{
 
 
 /* tablet =============================================================*/
-@media only screen and (min-width: 481px) and (max-width: 768px){
+@media only screen and (min-width: 481px) and (max-width: 1023px){
     nav{width: 100%; height: 60px; padding-top: 15px;}
     nav li{
         position: relative;
@@ -200,8 +200,8 @@ div#botao-menu img#bot-menu{
 
         img#botao-voltar{
             position: relative;
-            left: 130px;
-            bottom: -120px; 
+            left: 340px;
+            margin-top: 10px;
     }
 
     a{
@@ -210,7 +210,7 @@ div#botao-menu img#bot-menu{
 }
 
 /*desktop    */
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 1024px){
     nav{width: 100%; height: 80px; }
     nav li{ float: right; width: 75px;  padding:10px; margin: 15px 13px; }    
 
@@ -240,8 +240,9 @@ div#botao-menu img#bot-menu{
 
     img#botao-voltar{
         position: relative;
-        left: 90px;
-        bottom: -170px;       
+        left: 480px;
+       margin-top: 10px; 
+       margin-bottom: 50px;     
     }
 
     h1{
