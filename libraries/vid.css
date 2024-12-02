@@ -95,11 +95,10 @@ div#botao-menu img#bot-menu{
     right: 50px;    
     }
 
-    img#logo_pagina{
-        top: -138px;
-        left: 20px; 
-        max-width: 215px; 
-        max-height: 170px;   
+    img#logo_pagina{        
+        top: -698px;
+        left: -10px; 
+        max-width: 150px; 
 }
 
     img#bot-menu{
