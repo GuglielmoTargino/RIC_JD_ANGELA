@@ -89,6 +89,7 @@ div#botao-menu img#bot-menu{
 
     div#principal{
             width: 380px;  
+            height: 400px;
             margin: 200px auto 4px auto;      
         }
         div#filha{
@@ -102,7 +103,7 @@ div#botao-menu img#bot-menu{
         img#logo-pagina{           
             top: -450px;
             left: 10px; 
-            max-width: 180px;
+            max-width: 100px;
         }
       
 
