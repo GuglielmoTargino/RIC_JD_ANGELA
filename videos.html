@@ -16,9 +16,10 @@
 
     <!-- meta para configurar as função responsiva-->
     <meta name="viewport" content=" width=device--width, initial-scale=1">
-    <link rel="stylesheet" href="libraries/infor.css">  
+    <link rel="stylesheet" href="libraries/stylesheet.css">  
     <script src="libraries/jquery-3.7.1.min.js"></script> 
-    <script src="libraries/javascript.js"></script>   
+    <script src="libraries/javascript.js"></script>
+      
 
 </head>
 <style>
@@ -36,38 +37,41 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="fotos.html">Fotos</a></li>
-                    <li><a href="noticias.html">Info</a></li>
+                    <li><a href="noticias.html">Info.</a></li>
+                    <li><a href="videos.html">Videos</a></li>
                 </ul>
             </nav> 
             <div id="botao-menu">
                 <img id="bot-menu" src="images/iconemenu.png"><!-- para tela responsiva-->
             </div> 
-                     
+                    
         </header>
 
-        <div id="principal">
-        <div id="filha">
-            <h1> Se tem vídeo... o lugar é aqui!</h1>
-            <h1> Clique em um item da lista e curta os melhores momentos.</h1>
-        </div>           
-            <ol type="number" start="1">       <!-- nesta linha, oode ser também ol, lista ordenada-->
-                <li> <a href="infos/organi_ric_angela.pdf">Organização RIC</a></li>
-                <video src="_media/one-day.mp4" controls poster="_imagens/video-mini03.jpg"></video>
-               
-                                               
-            </ol>            
-            <img id="logo-pagina" src="images/video.png">
-            <a href="videos.html"><img id="botao-voltar" src="images/botao_voltar.png"></a>
-        </div>
-
-       
-
+        <hgroup>
+            <h1>Galeria de fotos da Igreja em Casa Jd. Ângela! </h1>
+            <h2>...lugar de memórias queridas é aqui.</h2>
+        </hgroup>
+        <hgroup>
+            <h2>Deslize e clique em um item da lista. Boa curtição!</h2>
+        </hgroup>
         
+            
 
-      
+        <div id="principal">
 
-                 
+            
+            
+            <figure id="moldura">
+                <iframe src="../RIC_JD_ANGELA/views/listavideos.html" name="janela" id="frame-fotos">                        
+                </iframe>
+            </figure>
+            
+            <img id="logo-pagina" src="images/video.png">
+
+            <a href="videos.html"><img id="botao-voltar" src="images/botao_voltar.png"></a>
+
+
+        </div>                 
         
         <footer id="rodape">
             Igreja em Casa JD. Ângela-zona sul SP, é parte da Igreja de Cristo Internacional de São Paulo-Brasil. Todo e qualquer 
