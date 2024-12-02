@@ -96,7 +96,7 @@ div#botao-menu img#bot-menu{
     }
 
     img#logo_pagina{        
-        top: -698px;
+        top: -138px;
         left: -10px; 
         max-width: 150px; 
 }
@@ -138,7 +138,7 @@ div#botao-menu img#bot-menu{
 
     img#botao-voltar{
     position: relative;
-    left: 20px;
+    left: 150px;
     }
 
     a{
