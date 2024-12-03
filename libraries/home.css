@@ -1,0 +1,453 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(112, 61, 122);
+
+}
+
+ h2{
+    text-align: center;
+}
+
+div#interface h1{
+    text-align: center;
+    }
+
+
+img#icone{
+    border-radius: 4px;
+} 
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu li:hover{
+    background-color: rgb(201, 29, 29);    
+}
+
+nav#menu a{
+    color: rgb(1, 6, 10);
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: white;
+    text-decoration: overline;    
+}
+
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;       
+}
+
+figure.foto-legenda figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption{
+    opacity: 1;
+}
+
+footer#rodape{
+    clear: both;
+    border-top: 1px solid red;
+}
+
+footer#rodape{
+    text-align: center;
+}
+
+
+
+
+/* Para celulares pequenos ================================================*/
+@media (max-width: 480px) {
+    
+    /* div master principal box-shadow:  0 0 2em rgb(102, 104, 212);*/
+    div#interface{
+        width: 470px;
+        background-color: rgb(220, 226, 240);
+        margin: 5px auto 5px auto;        
+        padding: 5px 5px 5px 5px;
+        border-radius: 2px;
+        }
+    
+    div#interface h1{
+        margin-top: 50px;
+        }
+
+    /*div da img_cristo*/
+    div#imagem-cristo{    
+        width: 460px;
+        height: 120px; 
+        background-color: rgb(0, 0, 255);
+        padding-top: 10px;
+        margin-top: 10px;
+        margin-bottom: -40px;
+    }
+
+    img#icone{
+        position: relative;
+        max-width: 410px;
+        left: 30px;
+
+    }
+    header#cabecalho h1{
+        font-family: Arial, Helvetica, sans-serif, sans-serif;
+        font-size: 15pt;
+        color: rgb(90, 87, 87);
+        text-shadow: 1px 1px 1px rgb(240, 204, 204);
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+
+     /*FORMATAÇÃO DO bloco MENU */
+    nav#menu{
+        display: block;
+    }
+    nav#menu ul{
+        list-style: none;
+        text-transform: uppercase;   
+        position:relative;
+        top: -190px;
+        left: -10px;     
+    }
+
+    nav#menu li{
+        display: inline-block;
+        background-color: rgb(181, 165, 204);
+        padding: 6px;
+        margin: 3px;
+        transition: 1s;
+        border-radius: 4px;
+       
+    }
+
+     /* formatação de foto com legenda>> foto membros grupo*/
+    figure.foto-legenda {
+        position: relative;
+        border: 2px solid hsl(0, 22%, 96%);
+        box-shadow:  0 0 1em rgb(172, 115, 115);  
+        width: 430px;
+        height: 322px;
+        left: -20px;
+    }
+
+    p{
+        text-align: justify;
+        text-indent: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;    
+    }
+
+    figure.foto-legenda figcaption{
+        padding: 5px;       
+    }
+
+   
+     h2{
+        font-size: 20px;
+    }
+    
+    
+  
+}
+
+
+/* Para celulares médios=============================================================== */
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* div master principal box-shadow:  0 0 2em rgb(102, 104, 212);*/
+    div#interface{
+        width: 470px;
+        background-color: rgb(220, 226, 240);
+        margin: 5px auto 5px auto;
+        
+        padding: 5px 5px 5px 5px;
+        border-radius: 2px;
+        }
+    
+    div#interface h1{
+        margin-top: 50px;
+        }
+
+    /*div da img_cristo*/
+    div#imagem-cristo{    
+        width: 470px;
+        height: 120px; 
+        background-color: rgb(0, 0, 255);
+        padding-top: 10px;
+        margin-top: 10px;
+        margin-bottom: -40px;
+    }
+
+    img#icone{
+        position: relative;
+        max-width: 420px;
+
+        left: 25px;
+
+    }
+    header#cabecalho h1{
+        font-family: Arial, Helvetica, sans-serif, sans-serif;
+        font-size: 15pt;
+        color: rgb(90, 87, 87);
+        text-shadow: 1px 1px 1px rgb(240, 204, 204);
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+
+     /*FORMATAÇÃO DO bloco MENU */
+    nav#menu{
+        display: block;
+    }
+    nav#menu ul{
+        list-style: none;
+        text-transform: uppercase;   
+        position:relative;
+        top: -190px;
+        left: -10px;     
+    }
+
+    nav#menu li{
+        display: inline-block;
+        background-color: rgb(181, 165, 204);
+        padding: 6px;
+        margin: 3px;
+        transition: 1s;
+        border-radius: 4px;
+       
+    }
+
+     /* formatação de foto com legenda>> foto membros grupo*/
+    figure.foto-legenda {
+        position: relative;
+        border: 2px solid hsl(0, 22%, 96%);
+        box-shadow:  0 0 1em rgb(172, 115, 115);  
+        width: 430px;
+        height: 322px;
+        left: -20px;
+    }
+
+    p{
+        text-align: justify;
+        text-indent: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;    
+    }
+
+    figure.foto-legenda figcaption{
+        padding: 5px;       
+    }
+
+   
+     h2{
+        font-size: 20px;
+    }
+    
+}
+
+
+/* Para PCs e tablets ======================================================================*/
+@media (min-width: 768px) and (max-width: 1365px) {
+
+    /* div master principal box-shadow:  0 0 2em rgb(102, 104, 212);*/
+    div#interface{
+        width: 748px;
+        background-color: rgb(220, 226, 240);
+        margin: 5px auto 5px auto;
+        
+        padding: 10px 10px 10px 10px;
+        border-radius: 4px;
+        }
+    
+    div#interface h1{
+        margin-top: 52px;
+        }
+
+    /*div da img_cristo*/
+    div#imagem-cristo{    
+        width: 758px;
+        height: 140px; 
+        background-color: rgb(0, 0, 255);
+        padding-top: 10px;
+        margin-top: 10px;
+        margin-bottom: -40px;
+    }
+
+    img#icone{
+        position: relative;
+        max-width: 500px;
+        left: 130px;
+
+    }
+    header#cabecalho h1{
+        font-family: Arial, Helvetica, sans-serif, sans-serif;
+        font-size: 20pt;
+        color: rgb(90, 87, 87);
+        text-shadow: 1px 1px 1px rgb(240, 204, 204);
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+
+     /*FORMATAÇÃO DO bloco MENU */
+    nav#menu{
+        display: block;
+    }
+    nav#menu ul{
+        list-style: none;
+        text-transform: uppercase;   
+        position:relative;
+        top: -220px;
+        left: -10px;     
+    }
+
+    nav#menu li{
+        display: inline-block;
+        background-color: rgb(181, 165, 204);
+        padding: 6px;
+        margin: 3px;
+        transition: 1s;
+        border-radius: 4px;
+       
+    }
+
+     /* formatação de foto com legenda>> foto membros grupo*/
+    figure.foto-legenda {
+        position: relative;
+        border: 2px solid hsl(0, 22%, 96%);
+        box-shadow:  0 0 1em rgb(172, 115, 115);  
+        width: 718px;
+        height: 540px;
+        left: -20px;
+    }
+
+    p{
+        text-align: justify;
+        text-indent: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;    
+    }
+
+    figure.foto-legenda figcaption{
+        padding: 5px;       
+    }
+
+   
+     h2{
+        font-size: 26px;
+    }
+   
+}
+
+/* Para monitores grandes============================================================== */
+@media (min-width: 1366px) {
+    /* div master principal box-shadow:  0 0 2em rgb(102, 104, 212);*/
+    div#interface{
+        width: 748px;
+        background-color: rgb(220, 226, 240);
+        margin: 5px auto 5px auto;
+        
+        padding: 10px 10px 10px 10px;
+        border-radius: 4px;
+        }
+    
+    div#interface h1{
+        margin-top: 50px;
+        }
+
+    /*div da img_cristo*/
+    div#imagem-cristo{    
+        width: 758px;
+        height: 140px; 
+        background-color: rgb(0, 0, 255);
+        padding-top: 10px;
+        margin-top: 10px;
+        margin-bottom: -40px;
+    }
+
+    img#icone{
+        position: relative;
+        max-width: 500px;
+        left: 130px;
+
+    }
+    header#cabecalho h1{
+        font-family: Arial, Helvetica, sans-serif, sans-serif;
+        font-size: 20pt;
+        color: rgb(90, 87, 87);
+        text-shadow: 1px 1px 1px rgb(240, 204, 204);
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+
+     /*FORMATAÇÃO DO bloco MENU */
+    nav#menu{
+        display: block;
+    }
+    nav#menu ul{
+        list-style: none;
+        text-transform: uppercase;   
+        position:relative;
+        top: -220px;
+        left: -10px;     
+    }
+
+    nav#menu li{
+        display: inline-block;
+        background-color: rgb(181, 165, 204);
+        padding: 6px;
+        margin: 3px;
+        transition: 1s;
+        border-radius: 4px;
+       
+    }
+
+     /* formatação de foto com legenda>> foto membros grupo*/
+    figure.foto-legenda {
+        position: relative;
+        border: 2px solid hsl(0, 22%, 96%);
+        box-shadow:  0 0 1em rgb(172, 115, 115);  
+        width: 718px;
+        height: 540px;
+        left: -20px;
+    }
+
+    p{
+        text-align: justify;
+        text-indent: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;    
+    }
+
+    figure.foto-legenda figcaption{
+        padding: 5px;       
+    }
+
+   
+     h2{
+        font-size: 26px;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
