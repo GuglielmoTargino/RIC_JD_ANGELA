@@ -102,9 +102,9 @@ div#botao-menu img#bot-menu{
         }
 
         img#logo-pagina{           
-            top: -390px;
-            left: 10px; 
-            max-width: 150px;
+            top: -50px;
+            left: 40px; 
+            max-width: 100px;
     
         }
       
@@ -143,7 +143,7 @@ div#botao-menu img#bot-menu{
 
 
 /* tablet =============================================================*/
-@media only screen and (min-width: 481px) and (max-width: 1023px){
+@media only screen and (min-width: 481px) and (max-width: 767px){
     nav{width: 100%; height: 60px; padding-top: 15px;}
     nav li{
         position: relative;
@@ -183,9 +183,9 @@ div#botao-menu img#bot-menu{
         }
 
     img#logo-pagina{   
-            top: -430px;
-            left: 10px; 
-            max-width: 180px;    
+            top: -70px;
+            left: 100px; 
+            max-width: 120px;    
     }
 
     h1{
@@ -210,7 +210,7 @@ div#botao-menu img#bot-menu{
 }
 
 /*desktop    */
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 768px){
     nav{width: 100%; height: 80px; }
     nav li{ float: right; width: 75px;  padding:10px; margin: 15px 13px; }    
 
@@ -234,8 +234,10 @@ div#botao-menu img#bot-menu{
     }
 
     img#logo-pagina{   
-            top: -440px;
-            left: 20px;     
+        top: -75px;
+        left: 90px; 
+        max-width: 120px; 
+
     }
 
     img#botao-voltar{

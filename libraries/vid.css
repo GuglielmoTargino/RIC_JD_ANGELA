@@ -96,7 +96,7 @@ div#botao-menu img#bot-menu{
     }
 
     img#logo_pagina{        
-        top: -138px;
+        top: -100px;
         left: -10px; 
         max-width: 150px; 
 }
@@ -179,10 +179,9 @@ div#botao-menu img#bot-menu{
         }
 
         img#logo_pagina{
-            top: -138px;
+            top: -118px;
             left: 20px; 
-            max-width: 215px; 
-            max-height: 170px;   
+            max-width: 215px;  
     }
 
     figure#moldura{    
