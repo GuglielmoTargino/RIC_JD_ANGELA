@@ -84,8 +84,8 @@ footer{
 
     img#icone{
         position: relative;
-        max-width: 410px;
-        left: 30px;
+        max-width: 370px;
+        left: 18px;
 
     }
     header#cabecalho h1{
@@ -172,9 +172,8 @@ footer{
 
     img#icone{
         position: relative;
-        max-width: 420px;
-
-        left: 25px;
+        max-width: 450px;
+        left: 10px;
 
     }
     header#cabecalho h1{
