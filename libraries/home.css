@@ -78,7 +78,7 @@ footer{
     
     /* div master principal box-shadow:  0 0 2em rgb(102, 104, 212);*/
     div#interface{
-        width: 470px;
+        width: 450px;
         background-color: rgb(182, 238, 226);
         margin: 5px auto 5px auto;        
         padding: 5px 5px 5px 5px;
@@ -91,7 +91,7 @@ footer{
 
     /*div da img_cristo*/
     div#imagem-cristo{    
-        width: 460px;
+        width: 320px; 
         height: 120px; 
         padding-top: 10px;
         margin-top: 10px;
@@ -140,8 +140,8 @@ footer{
         position: relative;
         border: 2px solid hsl(0, 22%, 96%);
         box-shadow:  0 0 1em rgb(172, 115, 115);  
-        width: 430px;
-        height: 322px;
+        width: 410px;
+        height: 308px;
         left: -20px;
     }
 
