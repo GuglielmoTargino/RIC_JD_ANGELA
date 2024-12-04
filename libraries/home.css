@@ -258,8 +258,8 @@ footer{
 }
 
 
-/* Para PCs e tablets ======================================================================*/
-@media (min-width: 768px) and (max-width: 1365px) {
+/* Para PCs e tablets  @media (min-width: 768px) and (max-width: 1365px)======================================================================*/
+@media (min-width: 768px) {
 
     /* div master principal box-shadow:  0 0 2em rgb(102, 104, 212);*/
     div#interface{
@@ -340,7 +340,6 @@ footer{
     figure.foto-legenda figcaption{
         padding: 5px;       
     }
-
    
      h2{
         font-size: 26px;
@@ -348,95 +347,6 @@ footer{
    
 }
 
-/* Para monitores grandes============================================================== */
-@media (min-width: 1366px) {
-    /* div master principal box-shadow:  0 0 2em rgb(102, 104, 212);*/
-    div#interface{
-        width: 748px;
-        background-color: rgb(182, 238, 226);
-        margin: 5px auto 5px auto;        
-        padding: 10px 10px 10px 10px;
-        border-radius: 4px;
-        }
-    
-    div#interface h1{
-        margin-top: 50px;
-        }
-
-    /*div da img_cristo*/
-    div#imagem-cristo{    
-        width: 758px;
-        height: 140px; 
-        padding-top: 10px;
-        margin-top: 10px;
-        margin-bottom: -40px;
-    }
-
-    img#icone{
-        position: relative;
-        max-width: 500px;
-        left: 130px;
-
-    }
-    header#cabecalho h1{
-        font-family: Arial, Helvetica, sans-serif, sans-serif;
-        font-size: 20pt;
-        color: rgb(90, 87, 87);
-        text-shadow: 1px 1px 1px rgb(240, 204, 204);
-        padding: 0px;
-        margin-bottom: 0px;
-    }
-
-     /*FORMATAÇÃO DO bloco MENU */
-    nav#menu{
-        display: block;
-    }
-    nav#menu ul{
-        list-style: none;
-        text-transform: uppercase;   
-        position:relative;
-        top: -220px;
-        left: -10px;     
-    }
-
-    nav#menu li{
-        display: inline-block;
-        background-color: rgb(181, 165, 204);
-        padding: 6px;
-        margin: 3px;
-        transition: 1s;
-        border-radius: 4px;
-       
-    }
-
-     /* formatação de foto com legenda>> foto membros grupo*/
-    figure.foto-legenda {
-        position: relative;
-        border: 2px solid hsl(0, 22%, 96%);
-        box-shadow:  0 0 1em rgb(172, 115, 115);  
-        width: 718px;
-        height: 540px;
-        left: -20px;
-    }
-
-    p{
-        text-align: justify;
-        text-indent: 50px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;    
-    }
-
-    figure.foto-legenda figcaption{
-        padding: 5px;       
-    }
-
-   
-     h2{
-        font-size: 26px;
-    }
-    
-
-}
 
 
 
