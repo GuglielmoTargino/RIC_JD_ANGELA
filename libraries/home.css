@@ -59,17 +59,19 @@ figure.foto-legenda:hover figcaption{
     opacity: 1;
 }
 
-footer#rodape{
+footer{
+    width: 100%;
+    background-color: rgb(202, 195, 195);
+    position: absolute;
     clear: both;
     border-top: 1px solid red;
-}
-
-footer#rodape{
+    border-bottom: 1px solid red;
     text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+    margin-top: 30px;
+   
 }
-
-
-
 
 /* Para celulares pequenos ================================================*/
 @media (max-width: 480px) {

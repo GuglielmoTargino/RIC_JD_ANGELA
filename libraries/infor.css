@@ -28,6 +28,7 @@ footer{
     position: absolute;
     clear: both;
     border-top: 1px solid red;
+    border-bottom: 1px solid red;
     text-align: center;
    padding-top: 10px;
    padding-bottom: 10px;

@@ -4,7 +4,7 @@ body{
     width: auto;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(76, 149, 233);   
+    background-color: rgb(76, 233, 233);   
 }
 header{
     position: absolute;
@@ -26,6 +26,7 @@ footer{
     position: absolute;
     clear: both;
     border-top: 1px solid red;
+    border-bottom: 1px solid red;
     text-align: center;
    padding-top: 10px;
    padding-bottom: 10px;
